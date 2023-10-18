@@ -4,7 +4,7 @@ const router = express.Router();
 // GET /user 일반 라우터
 router.get('/abc', (req, res) => {
   console.log('일반라우터');
-  res.send('Hello, User');
+  res.send('Hello, abc User');
 });
 
 // GET /user 매개변수를 가진 라우터 (맨 아래쪽에 위치해야 함)
