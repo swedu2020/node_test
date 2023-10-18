@@ -5,7 +5,7 @@ function App(){
     fetch("/users").then(res=>res.json())
     .then(
       msg => setData(msg)
-    )
+    );
   }, []);
   return(
     <div>
