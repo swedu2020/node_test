@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 module.exports = () => {
   function connect() {
     // id와 pw를 몽고디비에서 만들어둠.
-    // id : user01
+    // id : user01,
     // pw : user01pw
     mongoose.connect('mongodb://user01:user01pw@localhost:27017/admin',{
         dbName: 'nodejs',
